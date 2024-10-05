@@ -42,6 +42,9 @@ const Contact = () => {
     resolver: zodResolver(formSchema),
     defaultValues: {
       nom: "",
+      mail: "",
+      sujet: "",
+      messages: "",
     },
   });
 
